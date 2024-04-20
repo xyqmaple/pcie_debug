@@ -8,6 +8,7 @@ OBJS := $(SRCS:$(SRC_DIR)/%.c=$(OBJ_DIR)/%.o)
 TARGET := $(RELEASE_DIR)/pci_debug
 
 CFLAGS := -O0 -g3 -Wall -fmessage-length=0
+CFLAGS += -I$(INC_DIR)
 LDFLAGS :=
 LDLIBS := -lreadline
 

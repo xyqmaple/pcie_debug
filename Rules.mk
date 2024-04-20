@@ -21,6 +21,7 @@ CUR_DIR_NAME := $(notdir $(CUR_DIR))
 RELEASE_DIR := $(CUR_DIR)/release
 SRC_DIR := $(CUR_DIR)
 OBJ_DIR := $(RELEASE_DIR)/obj
+INC_DIR := $(CUR_DIR)/include
 
 # --------------------------------------------------------------------------- #
 # Alias
